@@ -6,7 +6,7 @@ x = np.linspace(0,2*np.pi,1000)
 y = np.cos(x)
 ax.plot(x,y)
 ax.set_xlim(0,2*np.pi)
-fig.tightlayout()
+fig.tight_layout()
 
 
 
